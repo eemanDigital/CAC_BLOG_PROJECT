@@ -19,7 +19,7 @@ function TopBar() {
             <li className='topListItem'>about</li>
             <li className='topListItem'>contact</li>
             <li className='topListItem'>services</li>
-            <li className='topListItem'>logout</li>
+            <li className='topListItem'>blog</li>
         </ul>
 
 
