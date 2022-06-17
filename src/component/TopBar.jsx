@@ -3,7 +3,7 @@ import React from 'react'
 import "../component/topBar.css"
 
 import Logo from "../images/eemanlogo.png"
-
+import { Outlet, Link } from "react-router-dom";
 
 
 function TopBar() {
@@ -15,11 +15,11 @@ function TopBar() {
     <div className="topCenter">
         <ul className="topList">
             
-            <li className='topListItem'>home</li>
-            <li className='topListItem'>about</li>
-            <li className='topListItem'>contact</li>
-            <li className='topListItem'>services</li>
-            <li className='topListItem'>blog</li>
+            <li className='topListItem'>  <Link to="/">home</Link></li>
+            <li className='topListItem'> <Link to="/about">about</Link></li>
+            <li className='topListItem'> <Link to="/contact">contact</Link></li>
+            <li className='topListItem'> <Link to="/services">services</Link></li>
+            <li className='topListItem'> <Link to="/blogs">Blogs</Link></li>
         </ul>
 
 
