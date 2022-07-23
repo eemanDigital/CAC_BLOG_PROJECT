@@ -3,7 +3,7 @@ import React from 'react'
 import "../component/topBar.css"
 
 import Logo from "../images/eemanlogo.png"
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function TopBar() {

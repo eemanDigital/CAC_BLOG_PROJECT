@@ -1,7 +1,5 @@
 
 import "../component/aside.css"
-
-
 import 'animate.css';
 
 function Aside() {
