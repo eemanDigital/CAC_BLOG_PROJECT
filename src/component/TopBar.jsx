@@ -4,6 +4,7 @@ import "../component/topBar.css"
 
 import Logo from "../images/eemanlogo.png"
 import { NavLink} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 
 function TopBar() {

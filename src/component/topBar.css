@@ -95,3 +95,7 @@
      border-bottom: 0.4rem solid teal;
      cursor: not-allowed;
    }
+a{
+     text-decoration: none;
+     color: #fff;
+}
