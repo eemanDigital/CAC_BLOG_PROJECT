@@ -64,6 +64,38 @@
      margin-left: 20px;
 }
 
+
+ /* a{
+     text-decoration: none;
+     color: #fff;
+
+}  */
+
+/* .active-link{
+     color: crimson;
+} */
+
+.Nav_link:link {
+     /* color: chocolate; */
+     font-size: 1rem;
+     line-height: 1.6rem;
+     text-decoration: none;
+   }
+   .Nav_link:visited {
+     color: #fff;
+   }
+   .Nav_link:hover {
+     color: rgb(187, 197, 195);
+   }
+   .Nav_link:active {
+     color:crimson;
+   }
+   
+   .activeRoute {
+     background-color: yellow;
+     border-bottom: 0.4rem solid teal;
+     cursor: not-allowed;
+   }
 a{
      text-decoration: none;
      color: #fff;

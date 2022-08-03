@@ -3,6 +3,7 @@ import React from 'react'
 import "../component/topBar.css"
 
 import Logo from "../images/eemanlogo.png"
+import { NavLink} from "react-router-dom"
 import { Link } from "react-router-dom";
 
 
@@ -15,11 +16,23 @@ function TopBar() {
     <div className="topCenter">
         <ul className="topList">
             
-            <li className='topListItem'>  <Link to="/">home</Link></li>
-            <li className='topListItem'> <Link to="/about">about</Link></li>
-            <li className='topListItem'> <Link to="/contact">contact</Link></li>
-            <li className='topListItem'> <Link to="/services">services</Link></li>
-            <li className='topListItem'> <Link to="/blogs">Blogs</Link></li>
+            <li className='topListItem' >  <NavLink to="/" 
+                className="Nav_link"
+                activeClassName="activeRoute"
+                activeStyle={{ color: 'teal' }}
+            >home</NavLink></li>
+            <li className='topListItem'> <NavLink   to="/about" className="Nav_link"
+                activeClassName="activeRoute"
+                activeStyle={{ color: 'teal' }}>about</NavLink></li>
+            <li className='topListItem'> <NavLink  to="/contact" className="Nav_link"
+                activeClassName="activeRoute"
+                activeStyle={{ color: 'teal' }}>contact</NavLink></li>
+            <li className='topListItem'> <NavLink  to="/services" className="Nav_link"
+                activeClassName="activeRoute"
+                activeStyle={{ color: 'teal' }}>services</NavLink></li>
+            <li className='topListItem'> <NavLink  to="/blogs" className="Nav_link"
+                activeClassName="activeRoute"
+                activeStyle={{ color: 'teal' }}>Blogs</NavLink></li>
         </ul>
 
 
